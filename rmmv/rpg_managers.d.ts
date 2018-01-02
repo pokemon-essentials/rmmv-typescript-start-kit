@@ -389,7 +389,7 @@ interface SceneManagerStatic {
     exit(): void;
     clearStack(): void;
     stop(): void;
-    prepareNextScene(): void;
+    prepareNextScene(...args: any[]): void;
     snap(): Bitmap;
     snapForBackground(): void;
     backgroundBitmap(): Bitmap;
