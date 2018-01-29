@@ -403,9 +403,8 @@ declare class Bitmap {
      * @param {Number} tx
      * @param {Number} ty
      * @param {Number} maxWidth
-     * @private
      */
-    protected _drawTextBody(text: string, tx: number, ty: number, maxWidth: number): void;
+    _drawTextBody(text: string, tx: number, ty: number, maxWidth: number): void;
 
     /**
      * @method _onLoad
@@ -4203,9 +4202,8 @@ declare abstract class _Window extends PIXI.Container {
 
     /**
      * @method _updateContents
-     * @private
      */
-    protected _updateContents(): void;
+    _updateContents(): void;
 
     /**
      * @method _updateArrows
