@@ -25,6 +25,7 @@ declare namespace PIXI {
     export function autoDetectRenderer(width: number, height: number, options?: PIXI.RendererOptions, forceCanvas?: boolean): PIXI.WebGLRenderer | PIXI.CanvasRenderer;
     export function autoDetectRenderer(options?: PIXI.RendererOptions): PIXI.WebGLRenderer | PIXI.CanvasRenderer;
     export const loader: PIXI.loaders.Loader;
+    export const tilemap: any;
 
     //////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////SETTINGS///////////////////////////////////////
