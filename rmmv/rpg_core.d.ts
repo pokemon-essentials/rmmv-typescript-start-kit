@@ -371,7 +371,7 @@ declare class Bitmap {
 
     protected _canvas: HTMLCanvasElement;
     protected _context: CanvasRenderingContext2D;
-    protected _baseTexture: PIXI.BaseTexture;
+    _baseTexture: PIXI.BaseTexture;
     protected _image: HTMLImageElement;
     protected _url: string;
     protected _paintOpacity: number;
